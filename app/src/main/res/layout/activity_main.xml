@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glide"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="REMOTE IMAGE"
+        android:layout_marginBottom="24dp"
+        android:onClick="openRemoteImage" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOAD ONLY"
+        android:layout_marginBottom="24dp"
+        android:onClick="openDownloadOnly" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="GET RESOLUTION"
+        android:layout_marginBottom="24dp"
+        android:onClick="openGetResolution" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="DRAWABLE TARGET"
+        android:layout_marginBottom="24dp"
+        android:onClick="openDrawableTarget" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM TARGET"
+        android:layout_marginBottom="24dp"
+        android:onClick="openCustomTarget" />
+
+</LinearLayout>
